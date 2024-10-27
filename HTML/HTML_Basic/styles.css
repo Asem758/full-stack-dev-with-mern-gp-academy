@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(229, 185, 252)
+}
+
+h1 {
+    color: orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 300%;
+    text-align: center;
+}
+
+p {
+    color: blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 170%;
+    text-align: center;
+    border: 2px solid rgb(251, 255, 150);
+    margin: 50px;
+    /* text-decoration: double; */
+    /* text-overflow: ellipsis;
+    text-shadow: 0em;
+    text-rendering: optimizeLegibility;
+    text-decoration-color: aquamarine; */
+}

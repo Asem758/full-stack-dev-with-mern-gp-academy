@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .menu {
+            float: left;
+            width: 20%;
+        }
+        
+        .menuitem {
+            padding: 8px;
+            margin-top: 7px;
+            border-bottom: 1px solid #a7d1d1;
+        }
+        
+        .main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+        
+        .right {
+            background-color: rgb(180, 194, 194);
+            float: left;
+            width: 20%;
+            padding: 10px 15px;
+            margin-top: 7px;
+        }
+        
+        @media only screen and (max-width:800px) {
+            /* For Teblet */
+            .main {
+                width: 800px;
+                padding: 0;
+            }
+            .right {
+                width: 100%;
+            }
+        }
+        
+        @media only screen and (max-width:500px) {
+            /* For mobile phones: */
+            .menu,
+            .main,
+            .right {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body style="font-family: Georgia, 'Times New Roman', Times, serif;">
+    <div style="background-color: darkturquoise; padding:15px">
+        <h1>Sydney</h1>
+
+        <h3>Sydney is the capital city of Australia</h3>
+    </div>
+    <div style="overflow: auto;">
+        <div class="menu">
+            <div class="menuitem">Thewalk</div>
+            <div class="menuitem">Transport</div>
+            <div class="menuitem">History</div>
+            <div class="menuitem">Gallery</div>
+        </div>
+
+        <div class="main">
+            <h2>The Walk</h2>
+            <p>
+                If People are walking everyday, they must be benifit. They must be everyday walking and daily routine maintain.
+            </p>
+            <img src="https://img.freepik.com/free-vector/boy-doing-running-exercise-cartoon-character-isolated_1308-54446.jpg?t=st=1729022945~exp=1729026545~hmac=68e0356d6480d9b07d3714c515a212c110568440f30017a49f96a269603d1777&w=740" alt="Walk of a boy" />
+        </div>
+        <div class="right">
+            <h2>What?</h2>
+            <p>
+                Where is this place? I want to go there. Can anybody join to me? i hope we can enjoy this moment. then we will celebrated this journey.
+            </p>
+            <h2>Where</h2>
+            <p>
+                This place is Unied states of America. This country is the one of the richest country in the world. most of the people want to go this coutry. Also this country is the most largest country the world.
+            </p>
+            <h2>Price</h2>
+            <p>The walk is totally free. You can enjo with us</p>
+        </div>
+    </div>
+    <div style="
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 10px;
+        margin-top: 7px;
+        font-size: 12px;
+      ">
+        This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Javascript</title>
+</head>
+
+<!-- Using Id attribute in Javascript-->
+
+<h2>We use ID attribute in javascript</h2>
+<p>
+    Javascript are the most popular programming language in the world. many people use this language. If developer use javascript language, developer will more flexible in development sector
+</p>
+
+<h1 id="myHeader">Hello people of the world</h1>
+<button onclick="displayReasult()">Change attribute</button>
+
+<!-- Javascript Can change style -->
+
+<h1>My First Javascript Practice</h1>
+
+<p id="practice">Javascript can change style element</p>
+
+<button type="button" onclick="myFunction()">Click Me</button>
+
+<!-- Now, We can see javascript can change attribute -->
+
+<h1>This is my First javasript programme</h1>
+<p>
+    I can use various type of element of javasript. a JavaScript changes the value of the src (source) attribute of an image.
+</p>
+
+<img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" width="100" height="100" />
+
+<button type="button" onclick="Light(1)">Light on</button>
+<button type="button" onclick="Light(0)">Light off</button>
+<script>
+    function displayReasult() {
+        document.getElementById("myHeader").innerHTML = "Have a Nice Day!";
+    }
+
+    function myFunction() {
+        document.getElementById("practice").style.fontSize = "30px";
+        document.getElementById("practice").style.color = "pink";
+        document.getElementById("practice").style.backgroundColor = "red";
+    }
+
+    function Light(sw) {
+        var pic;
+        if (sw == 0) {
+            pic = "https://www.w3schools.com/js/pic_bulboff.gif";
+        } else {
+            pic = "https://media.tenor.com/v1Rr5AUVH_YAAAAj/lampard.gif";
+        }
+        document.getElementById("myImage").src = pic;
+    }
+</script>
+
+<body></body>
+
+</html>

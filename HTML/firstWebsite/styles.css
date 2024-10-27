@@ -1,0 +1,17 @@
+        h1 {
+        color: greenyellow;
+    }
+    
+    body {
+        background-color: aquamarine;
+    }
+    
+    @media screen (max-width:600px) {
+        body {
+            background-attachment: fixed;
+        }
+        @media screen (max-width:600px) {
+            body {
+                background-attachment: fixed;
+            }
+        }

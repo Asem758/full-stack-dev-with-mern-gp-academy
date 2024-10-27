@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation menu</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(45, 13, 60);
+        }
+        
+        li {
+            float: right;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: coral;
+        }
+        
+        div {
+            background-color: green;
+            width: 300px;
+            margin: auto;
+        }
+        
+        div.myContainer {
+            width: 100%;
+            overflow: auto;
+        }
+        
+        div.container {
+            display: grid;
+        }
+        
+        div.conatiner>div {
+            width: 33%;
+        }
+        
+        .district {
+            background-color: darkgoldenrod;
+            color: white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+        
+        .note {
+            font-size: 120px;
+            color: rgb(195, 0, 255);
+        }
+        
+        .city {
+            background-color: darkkhaki;
+            color: deeppink;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>Navigation menu</h2>
+    <p>in this example i use navigation menu using internal css</p>
+
+    <ul>
+        <li>
+            <a href="#Home">Home</a>
+        </li>
+        <li> <a href="#News">News</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#About us">About us</a></li>
+    </ul>
+    <!--HTML DIV -->
+    <h2>HTML DIV Example</h2>
+
+    <div>
+        This is software Engineering Tutorila Website
+        <p>People can easily learn from this website</p>
+    </div>
+    <!--When div as a Container-->
+    <div>
+        <h2>Words Most popular subject is Computer Science and Engineering</h2>
+        <p>My University credit is 143 from this department</p>
+    </div>
+    <p>Dhaka University is the public university of Bangladesh</p>
+    <!--Multiple Div elements-->
+    <h1>Multiple div elements </h1>
+
+    <div style="background-color: antiquewhite;">
+        <h2>Dhaka</h2>
+        <p>Dhaka is the most populated City in the Bangladesh</p>
+        <p>Dhaka is the most crowded city of Bangladesh</p>
+    </div>
+
+    <div style="background-color: crimson;">
+        <h2>Chittagong</h2>
+        <p>Chittagong is the most beautiful city in the Bangladesh</p>
+        <p>Bangladesh's all import and export return in Chittagong</p>
+    </div>
+    <div style="background-color: deepskyblue;">
+        <h2>Bhola</h2>
+        <p>Bhola is the queen islend of Bangladesh</p>
+        <p>People of bhola only transport system is launch</p>
+
+    </div>
+    <hr>
+    <div class="myContainer">
+        <div>
+            <h2>Words Most popular subject is Computer Science and Engineering</h2>
+            <p>My University credit is 143 from this department</p>
+        </div>
+        <p>Dhaka University is the public university of Bangladesh</p>
+        <!--Multiple Div elements-->
+        <h1>Multiple div elements </h1>
+
+        <div style="background-color: antiquewhite;">
+            <h2>Dhaka</h2>
+            <p>Dhaka is the most populated City in the Bangladesh</p>
+            <p>Dhaka is the most crowded city of Bangladesh</p>
+        </div>
+
+        <div style="background-color: crimson;">
+            <h2>Chittagong</h2>
+            <p>Chittagong is the most beautiful city in the Bangladesh</p>
+            <p>Bangladesh's all import and export return in Chittagong</p>
+        </div>
+        <div style="background-color: deepskyblue;">
+            <h2>Bhola</h2>
+            <p>Bhola is the queen islend of Bangladesh</p>
+            <p>People of bhola only transport system is launch</p>
+        </div>
+    </div>
+    <!-- FlexBox Example -->
+    <div class="container">
+        <h1>FlexBox</h1>
+        <p>Now, i align three div elements side by side</p>
+
+        <div style="background-color: darksalmon;">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+            <p>London has over 13 million inhabitants.</p>
+        </div>
+        <div style="background-color: cornflowerblue;">
+            <h2>Oslo</h2>
+            <p>Oslo is the capital city of Norway.</p>
+            <p>Oslo has over 600.000 inhabitants.</p>
+        </div>
+        <div style="background-color: darkmagenta;">
+            <h2>Rome</h2>
+            <p>Rome is the capital city of Italy.</p>
+            <p>Rome has almost 3 million.</p>
+        </div>
+    </div>
+    <hr>
+    <!--HTML Class-->
+    <h1>HTML class</h1>
+    <div class="district">
+        <h2>This is a html class</h2>
+        <p>HTML class is more easier for web application development</p>
+    </div>
+    <div class="district">
+        <h2>This is a html class</h2>
+        <p>HTML class is more easier for web application development</p>
+    </div>
+    <div class="district">
+        <h2>This is a html class</h2>
+        <p>HTML class is more easier for web application development</p>
+    </div>
+    <hr>
+    <!-- Span -->
+    <h1>My <span class="note">Important</span> Notes </h1>
+    <p>This is the <span class="note"> most unique attribute</span> system in HTML</p>
+    <hr>
+    <h2 class="city">London is the capital city of Bangladesh</h2>
+    <p>I use CSS color and background color</p>
+
+    <h2 class="city">Berlin is capital city of Germany</h2>
+    <p>I Use CSS different color and different background color</p>
+
+    <h2 class="city">Dhaka is the capital city Bangladesh</h2>
+    <p>Noe, i use more different text color and different background color</p>
+
+    <!-- Adding Javasript -->
+
+    <h2>Use the class attribute in javascript</h2>
+    <p>then click the button to the hide elements with the class anme city</p>
+
+    <button onclick="myFunction()"> Hide Elements</button>
+
+    <h2 class="city">London</h2>
+    <p>London is the capital of England.</p>
+
+    <h2 class="city">Paris</h2>
+    <p>Paris is the capital of France.</p>
+
+    <h2 class="city">Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("city");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+    </script>
+    <!-- HTML ID -->
+
+
+    <p><a href="#ch3">This is chapter 3</a></p>
+    <p><a href="#ch7">This is chapter 7</a></p>
+
+    <h2>Chapter 1</h2>
+    <p>Chater explain with bla bla with many other writing in this book</p>
+
+    <h2>Chapter 2</h2>
+    <p>Chater explain with bla bla with many other writing in this book</p>
+
+    <h2 id="ch3">Chapter 3</h2>
+    <p>Chater explain with bla bla with many other writing in this book</p>
+
+    <h2>Chapter 4</h2>
+    <p>Chater explain with bla bla with many other writing in this book</p>
+
+    <h2>Chapter 5</h2>
+    <p>Chater explain with bla bla with many other writing in this book</p>
+
+    <h2>Chapter 6</h2>
+    <p>Chater explain with bla bla with many other writing in this book</p>
+
+    <h2 id="ch7">Chapter 7</h2>
+    <p>Chater explain with bla bla with many other writing in this book</p>
+
+</body>
+
+
+</html>
